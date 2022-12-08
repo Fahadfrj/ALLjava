@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.valutakalkulator.HelloController">
+   <children>
+      <Label fx:id="txtv" layoutX="125.0" layoutY="233.0" text="valuta" />
+      <TextField fx:id="b" layoutX="139.0" layoutY="151.0" />
+      <TextField fx:id="v" layoutX="140.0" layoutY="267.0" />
+      <Button fx:id="bv" layoutX="425.0" layoutY="293.0" mnemonicParsing="false" onAction="#regn" text="regn" />
+      <Label fx:id="rs" layoutX="437.0" layoutY="338.0" />
+      <Label fx:id="txtb" layoutX="124.0" layoutY="113.0" text="belob" />
+   </children>
+</AnchorPane>
